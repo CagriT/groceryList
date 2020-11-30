@@ -40,7 +40,7 @@ class ItemList extends Component {
           <tbody>
             {this.state.inputs &&
               this.state.inputs.map(item => (
-                // <Exercise exercise={item} deleteInput={this.deleteInput} key={item._id} />
+                
                 <tr key={item._id}>
                   <td>{item.input}</td>
                   <td>{item.priority}</td>
